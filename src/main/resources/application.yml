@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: DEBUG
+server:
+  port: 9080
+spring:
+  main:
+    banner-mode: "off"
+purchase-approval:
+  limits:
+    min-amount: 200
+    max-amount: 5000
+    min-period: 6
+    max-period: 24
+    step-reduce: 100
